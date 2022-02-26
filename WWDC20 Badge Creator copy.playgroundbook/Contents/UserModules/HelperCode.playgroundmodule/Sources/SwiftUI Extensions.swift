@@ -28,7 +28,7 @@ public extension Gradient {
 // I am scaling up the dynmaic fonts for better looks on Mac!
 // Scale the fonts by 1.5 times if using a 13 inch MacBook or smaller, scale them up by 1.8 times if using a Mac with a higher screen resolution
 // Comment the next line if on iPadOS!
-let fontScalingCoefficent: CGFloat = UIScreen.main.bounds.height < 1100 ? 1.25 : 1.8
+let fontScalingCoefficient: CGFloat = UIScreen.main.bounds.height < 1100 ? 1.25 : 1.8
 
 // A view modifier that scales up dymaic fonts and uses rounded design as default for better looks!
 // I used a bit of a hack here, but it works ;)
@@ -38,7 +38,7 @@ fileprivate struct ScaledFont: ViewModifier {
     let weight: Font.Weight = .regular
     public func body(content: Content) -> some View {
         content
-            .font(.system(size: (UIFont.preferredFont(forTextStyle: style).pointSize * fontScalingCoefficent), weight: weight, design: design))
+            .font(.system(size: (UIFont.preferredFont(forTextStyle: style).pointSize * fontScalingCoefficient), weight: weight, design: design))
     }
 }
 
