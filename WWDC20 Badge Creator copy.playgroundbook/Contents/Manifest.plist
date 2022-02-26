@@ -7,19 +7,25 @@
 		<string>Chapter1.playgroundchapter</string>
 	</array>
 	<key>ContentIdentifier</key>
-	<string>com.bertan.badgecreator</string>
+	<string>com.bertan.playgroundcollection.WWDC20BadgeCreatorMac</string>
 	<key>ContentVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>DeploymentTarget</key>
-	<string>ios-current</string>
+	<string>ios14.0</string>
 	<key>DevelopmentRegion</key>
 	<string>en</string>
+	<key>MinimumSwiftPlaygroundsVersion</key>
+	<string>3.2</string>
+	<key>SupportsDarkMode</key>
+	<false/>
 	<key>ImageReference</key>
 	<string>cover.png</string>
 	<key>Subtitle</key>
-	<string>Create Your Very Own Customized Badge for WWDC20!</string>
+	<string>Create Your Own Badges for the first all online WWDC!</string>
 	<key>SwiftVersion</key>
-	<string>5.1</string>
+	<string>5.5</string>
+	<key>Name</key>
+	<string>WWDC20 Badge Creator</string>
 	<key>UserAutoImportedAuxiliaryModules</key>
 	<array/>
 	<key>UserModuleMode</key>
